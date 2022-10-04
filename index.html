@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="tom">
+        
+1) High Order Component in react js ?<br>
+Soln:
+      HOC takes component as a input and pass component as output.
+      one component that taking another component as props and return component. takes component as input and pass as a output.
+      Higher Order Components or HOC is the advanced method of reusing the component functionality logic.
+       It simply takes the original component and return the Enhanced component.
+
+       takes comp and return new comp. pattern that derived from react component nature. we called them new compo. we cant modify data that we have passed.
+      
+       Reasons: 
+         easy to handle.
+        get rid of copying the same logic in every component.
+         Makes code more Readable.<hr>
+
+2) Do you know about SEO ? Is it true that react js supports SEO support ?<br>
+soln:
+      SEO stands for Search engine OPtimizer.
+      React JS has simply code structure that is the advantage for SEO.
+      React helps build a very user-friendly UI that is also valuable by SEO. 
+      so you definitely shouldn't avoid it while creating a user interface for your app/website. 
+      However, you should use some tricks in your React-site is understandable for Google crawlers and, therefore, good for SEO.
+      React JS as well as angular & vue helps the developer to create a great user experience which is positive for SEO.
+      avoid traffic in our website<hr> 
+
+3) clean up in useEffect ?<br>
+Soln:
+       React performs the cleanup when the component unmounts.
+       The useEffect hook is built in a way that if we return a function within the method, it gets executed when the component unmounts.
+       React would execute the cleanup functions after return and then update the screen.
+       It is similar to the behavior of componentWillUnmount in classes.
+       we are using this because to remove unwanted & unnecessary data and it's prevents the memory leaks.<hr>
+
+4) What is the use of useCallback and useMemo <br>
+Soln:
+       useCallback Hook:-
+         The React useCallback Hook returns a memoized callback function.
+        Think of memoization as caching a value so that it does not need to be recalculated.
+         The useCallback Hook only runs when one of its dependencies update.
+         This can improve performance. 
+
+         The useCallback and useMemo Hooks are similar. The main difference is that useMemo returns a memoized value and useCallback returns a memoized function.<hr>
+
+       useMemo Hook:-
+           The React useMemo Hook returns a memoized value.
+           The useMemo is a hook used in the functional component of react that returns a memoized value.
+           The useMemo and useCallback Hooks are similar. The main difference is that useMemo returns a memoized value and useCallback returns a memoized function.<hr>
+
+5) Why do we need keys in react less?<br>
+Soln:
+       The main purpose of keys is to help React differentiate and distinguish elements from each other.
+       increasing its performance when diffing between the virtual and real DOM.
+       To use keys, simply add the prop inside an element such as <li>.<hr>
+
+6) Do you know about redux ?<br>
+Soln:
+       Redux is a container where you can store your whole application data.
+       so we are call it state management tool.
+       It doesn't belong to the component.
+       Redux is state management library, i.e. open source JS library.
+       Its makes complex Application Easier.
+       It provides centralized store that component can access data directly.
+      It is Flexible can works with any UI framework/Library.
+       component/action creators -> Action --> dispatch --> Reducers -- > Info store Central store --> Subcription --> pass state 
+
+    </div>
+</body>
+</html>
